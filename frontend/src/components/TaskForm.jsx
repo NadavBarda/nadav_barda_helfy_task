@@ -70,6 +70,7 @@ export function TaskForm({ setSeen, handleTaskCreated, selected_task }) {
           id="description"
           value={task.description}
           onChange={handleChange}
+          required
         />
       </div>
 

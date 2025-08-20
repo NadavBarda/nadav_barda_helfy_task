@@ -1,0 +1,45 @@
+.task-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.task-card.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+h3 {
+  margin: 0;
+}
+
+.task-info .desc {
+  margin: 5px 5px;
+}
+
+.priority {
+  font-size: 0.85rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.task-actions {
+  margin-top: 10px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.low {
+  background-color: aqua;
+}
+.medium {
+  background-color: rgb(222, 210, 48);
+}
+.high {
+  background-color: rgb(255, 64, 64);
+}

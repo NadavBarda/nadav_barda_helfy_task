@@ -1,0 +1,14 @@
+.task-list {
+  margin: 10px;
+  padding: 0;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import "dotenv/config";
+import tasksRoute from "./routes/tasksRoutes.js";
 
 const app = express();
 
@@ -11,7 +12,6 @@ app.use(
   })
 );
 app.use(express.json());
+app.use("/api/tasks", tasksRoute);
 
-
-
-export default app
+export default app;
